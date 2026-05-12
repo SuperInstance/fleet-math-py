@@ -80,3 +80,10 @@ pip install fleet-math
 ## License
 
 MIT
+
+## Polyformalism
+
+FM's `SuperInstance/polyformalism` is the authoritative polyglot constraint kernel — 14 languages (Python, C, Zig, Nim, Rust*...), 3 functions, 2,100 differential test vectors. This library (`fleet-math-py`) extends polyformalism with ZHC consensus, H1 emergence detection, and the continuous field. The polyformalism repo has the base constraint kernel; this repo has the fleet operations built on it.
+
+`constraint_check(lower, upper, values)` → `saturate()` + `Constraint.check()`  
+`eisenstein_norm(a, b)` → hexagonal snap in `gatekeeper-as-flux/eisenstein_deadband.py`
